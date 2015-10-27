@@ -564,15 +564,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y5B-xX-oYW">
-                                <rect key="frame" x="0.0" y="3" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="754" width="320" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ddc-Lp-km8" kind="popover" popoverAnchorView="Y5B-xX-oYW" id="R1q-BI-mAP">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="ddc-Lp-km8" kind="modal" id="ykX-hS-gGc"/>
                                 </connections>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="settings" id="GsZ-dM-hyP">
@@ -635,7 +633,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="empty_photos" id="91D-m7-IDG">
-                                        <rect key="frame" x="0.0" y="65" width="320" height="454"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="454"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                 </subviews>
@@ -644,9 +642,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Photos" id="mvM-eX-RnY"/>
-                    <connections>
-                        <outlet property="scrollView" destination="17d-Xt-Owf" id="hlN-Vp-i33"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tte-F4-7in" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -909,6 +904,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="9Bz-XG-u4S"/>
-        <segue reference="R1q-BI-mAP"/>
+        <segue reference="ykX-hS-gGc"/>
     </inferredMetricsTieBreakers>
 </document>
