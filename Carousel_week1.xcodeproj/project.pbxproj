@@ -13,6 +13,12 @@
 		B3EF75251BDFE5AD004F4256 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3EF75241BDFE5AD004F4256 /* Images.xcassets */; };
 		B3EF75281BDFE5AD004F4256 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3EF75261BDFE5AD004F4256 /* LaunchScreen.xib */; };
 		B3EF75341BDFE5AD004F4256 /* Carousel_week1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF75331BDFE5AD004F4256 /* Carousel_week1Tests.swift */; };
+		B3EF753E1BDFEA48004F4256 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF753D1BDFEA48004F4256 /* CreateAccountRootViewController.swift */; };
+		B3EF75401BDFF843004F4256 /* CreatAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF753F1BDFF843004F4256 /* CreatAccountViewController.swift */; };
+		B3EF75421BDFF853004F4256 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF75411BDFF853004F4256 /* SignInViewController.swift */; };
+		B3EF75441BDFF87E004F4256 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF75431BDFF87E004F4256 /* SignInRootViewController.swift */; };
+		B3EF75461BE005EF004F4256 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF75451BE005EF004F4256 /* SettingsViewController.swift */; };
+		B3EF75481BE007C9004F4256 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF75471BE007C9004F4256 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		B3EF752D1BDFE5AD004F4256 /* Carousel_week1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Carousel_week1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EF75321BDFE5AD004F4256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3EF75331BDFE5AD004F4256 /* Carousel_week1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel_week1Tests.swift; sourceTree = "<group>"; };
+		B3EF753D1BDFEA48004F4256 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		B3EF753F1BDFF843004F4256 /* CreatAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatAccountViewController.swift; sourceTree = "<group>"; };
+		B3EF75411BDFF853004F4256 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B3EF75431BDFF87E004F4256 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		B3EF75451BE005EF004F4256 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B3EF75471BE007C9004F4256 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,12 @@
 				B3EF751D1BDFE5AD004F4256 /* AppDelegate.swift */,
 				B3EF751F1BDFE5AD004F4256 /* ViewController.swift */,
 				B3EF75211BDFE5AD004F4256 /* Main.storyboard */,
+				B3EF75471BE007C9004F4256 /* PhotosViewController.swift */,
+				B3EF75451BE005EF004F4256 /* SettingsViewController.swift */,
+				B3EF753F1BDFF843004F4256 /* CreatAccountViewController.swift */,
+				B3EF75411BDFF853004F4256 /* SignInViewController.swift */,
+				B3EF75431BDFF87E004F4256 /* SignInRootViewController.swift */,
+				B3EF753D1BDFEA48004F4256 /* CreateAccountRootViewController.swift */,
 				B3EF75241BDFE5AD004F4256 /* Images.xcassets */,
 				B3EF75261BDFE5AD004F4256 /* LaunchScreen.xib */,
 				B3EF751B1BDFE5AD004F4256 /* Supporting Files */,
@@ -212,7 +230,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3EF75401BDFF843004F4256 /* CreatAccountViewController.swift in Sources */,
+				B3EF75481BE007C9004F4256 /* PhotosViewController.swift in Sources */,
+				B3EF753E1BDFEA48004F4256 /* CreateAccountRootViewController.swift in Sources */,
+				B3EF75461BE005EF004F4256 /* SettingsViewController.swift in Sources */,
+				B3EF75441BDFF87E004F4256 /* SignInRootViewController.swift in Sources */,
 				B3EF75201BDFE5AD004F4256 /* ViewController.swift in Sources */,
+				B3EF75421BDFF853004F4256 /* SignInViewController.swift in Sources */,
 				B3EF751E1BDFE5AD004F4256 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
